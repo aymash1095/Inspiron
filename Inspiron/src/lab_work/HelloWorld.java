@@ -11,7 +11,7 @@ public class HelloWorld {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Inspiron Reg number");
         int a=scan.nextInt();
-        System.out.println("Enter Your Name");
+        System.out.println("Enter Your  Name");
         String b =scan.next();
         System.out.println("your reg No is and name is :"+a+" "+b);
 	}
