@@ -1,7 +1,5 @@
 package hit;
-
 import java.util.Scanner;
-
 public class Condition_Statments {
 
 	public static void main(String[] args) {
