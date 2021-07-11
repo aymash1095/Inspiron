@@ -1,4 +1,4 @@
-package hit.day_09_07_2021;
+package hitdaily_09_07_2021;
 
 import java.util.Scanner;
 

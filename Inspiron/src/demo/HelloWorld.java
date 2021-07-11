@@ -1,4 +1,4 @@
-package lab_work;
+package demo;
 
 import java.util.Scanner;
 
