@@ -24,7 +24,7 @@ public class Add_01 {
 		System.out.println("Divide gives Quotient " + a + "/" + b + " = " + (a / b));
 		
 
-		System.out.println("--------");
+		System.out.println("---------");
 
 		// Modulus
 		System.out.println("Modulus  gives Remainder " + a + "%" + b + " = " + (a % b));
