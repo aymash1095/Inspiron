@@ -20,12 +20,13 @@ public class TypeCasting {
 		int a=257;
 		byte b=(byte)a;
 		System.out.println(b);
-		
 		float f=123.66f;
 		char c=(char)f;
+		int i=(int)c;
 		System.out.println(c);
 		double d=(double)f;
 		System.out.println(d);
+		System.out.println(i);
 		
 		
 	
