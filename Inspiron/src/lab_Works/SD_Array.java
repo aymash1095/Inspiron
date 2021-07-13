@@ -20,6 +20,9 @@ public class SD_Array {
 			System.out.println(s[i]);
 		}
 
+		
+		//-----------------------------//
+		
 		System.out.println("\n String Array User Input \n --- ");
 		System.out.println("How Many Names Do u Want to Print \n");
 
@@ -27,13 +30,24 @@ public class SD_Array {
 		String y[] = new String[b];
 
 		for (int i = 0; i < y.length; i++) {
-			System.out.println("Enter the Name " + (i + 1));
+			System.out.println("Enter the Name: " + (i + 1));
 			y[i] = scan.next();
 		}
-
+		
+        //------------------------------------------//
+		
+		
 		System.out.println("\n Printing String Array User Input \n  ");
+
 		for (int i = 0; i < y.length; i++) {
-			System.out.println(y[i]);
+			System.out.println((i+1)+": "+y[i]);
+		}
+
+		// using For Each Loop
+
+		System.out.println("\n Printing Normal Array using For Each loop \n  ");
+		for (int i : a) {
+			System.out.println(i);
 		}
 
 	}
