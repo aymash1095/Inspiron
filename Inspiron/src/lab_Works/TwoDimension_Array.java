@@ -39,6 +39,14 @@ public class TwoDimension_Array {
 			}
 			System.out.println();
 		}
+		
+		System.out.println("Printed Using For Each ..\n --------");
+		for(int i[]:b) {
+			for(int j:i) {
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
 
 		
 	}
